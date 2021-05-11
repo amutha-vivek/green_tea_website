@@ -1,0 +1,249 @@
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: "Changa", sans-serif;
+  background: white;
+  /* overflow: hidden; */
+  /* scrollbar-3dlight-color: #6fbc29; */
+ 
+}
+/* ::-webkit-scrollbar {
+    display: none;
+  } */
+  
+  /* Hide scrollbar for IE and Edge */
+
+p {
+  font-family: "Saira", sans-serif;
+  font-size: 1.3rem;
+}
+.first-div {
+  width: 100%;
+}
+
+nav {
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+
+.login-btn {
+  font-size: 1.2rem;
+  margin: 8px 10px;
+}
+.navbar-light .navbar-nav .nav-link {
+  margin: 5px 10px;
+  font-weight: 600;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #6fbc29;
+}
+
+.large-header {
+  position: relative;
+  width: 100%;
+  background: #111;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
+}
+
+#section2 {
+  background: #f1f1f1;
+  text-align: center;
+  padding: 5% 5% 2% 5%;
+  line-height: 1.5;
+}
+#section2 h3 {
+  line-height: 3;
+}
+
+#section2 .card {
+    margin: auto;
+    /* margin-bottom: 35px; */
+  }
+#section3 {
+  /* padding-top: 40px; */
+  background: #D8FFAF;
+  
+}
+.abtimg {
+  background-image: url("/imgs/gteaabout.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.abttext {
+  /* text-align: center; */
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.tea-display-card-section2 {
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
+.about-gtea {
+  width: 85%;
+  margin: auto;
+}
+h5 {
+  line-height: 1.5;
+  font-weight: 500;
+}
+.brand {
+  font-size: 1.8rem;
+  font-family: "Changa", sans-serif;
+}
+
+.section3title {
+  font-size: 3.5rem;
+}
+
+#section4 {
+    background: #f1f1f1;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+#section4 .card {
+    width: 80%;
+    
+}
+.container1 {
+    width: 80%;
+    margin: auto;
+}
+
+.items-available-cards-container .card{
+    margin: auto;
+    /* margin: 0; */
+    /* width: 80%; */
+    margin-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: none;
+    
+}
+.items-available-cards-container {
+    width: 80%;
+    margin: auto;
+}
+#section4 h1 {
+    line-height: 2;
+}
+
+#section4 .header {
+    margin-bottom: 5%;
+}
+
+.client-img {
+    background-image: url("/imgs/gteacard1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.prof-pic {
+    border-radius: 100%;
+    width: 20%;
+    margin-bottom: 3%;
+}
+
+.carous {
+    padding: 5%;
+    line-height: 2;
+    /* background-color: #D8FFAF; */
+}
+.star {
+    color: #6fbc29;
+    text-align: end;
+}
+
+#section5 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.subscribe {
+    margin: auto;
+    width: 40%;
+}
+
+#section6 {
+    background: #D8FFAF;
+    padding-top: 5%;
+    padding-bottom: 5px;
+}
+.subscribe-header {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.social-icon {
+    margin: 1%;
+    color: #6fbc29;
+}
+
+.social-icon :hover{
+    cursor: pointer;
+}
+
+.nav-cart :hover {
+    cursor: pointer;
+}
+
+.top-username {
+    width: 100%;
+    text-align: end;
+}
+
+.navclass {
+    margin-left: 100px;
+    /* width: 105%; */
+}
+
+.navlinkItems {
+    margin-right: 100px;
+    font-size: 1.2rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.hidden-items {
+    display: none;
+}
+
+.hidden-items-click {
+    display: block;
+    margin-top: 5px;
+}
+
+.more-items-btn {
+    text-align: center;
+}
+
+.copyright {
+    font-size: 1rem;
+    opacity: .8;
+}
+
+.signup-form {
+  width: 48%;
+    /* text-align: center; */
+    margin: auto;
+    margin-top: 200px;
+}
